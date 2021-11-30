@@ -48,24 +48,16 @@ div{
     margin-bottom: 10px;
 }
 
-.profile-table
-{
-    width: 100%
+.profile-table {
+    width: 100%;
 }
 
 .profile-table td {
-    text-align: right;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
   
 .profile-table td:nth-child(odd){
     font-weight: 900;    
-    text-align: right;
-}
-
-.profile-table td:nth-child(even){
-    text-align: left;
-
 }
 
 .education
@@ -92,6 +84,11 @@ div{
 .work-history-table td
 {
     vertical-align: top;
+}
+
+.work-history-table td a 
+{
+    font-weight: 900;    
 }
 
 .experience
