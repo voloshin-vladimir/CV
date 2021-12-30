@@ -1,100 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
-    background-color: rgb(228, 224, 224);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+body {
+  background-color: rgb(228, 224, 224);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 @media (max-width: 700px) {
-    body {
-        font-size: 14px;
-    }
+  body {
+    font-size: 14px;
   }
+}
 
-div{
-    border-radius: 28px;
+div {
+  border-radius: 28px;
 }
 
 .container {
-    max-width: 750px;
-    margin: auto;
-    padding-top: 30px;
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
 }
 
-.header{
-    background-color: rgb(0, 29, 64);
-    color: white;
-    padding: 15px;
-    border-radius: 28px;
-    margin-bottom: 15px;
+.header {
+  background-color: rgb(0, 29, 64);
+  color: white;
+  padding: 15px;
+  border-radius: 28px;
+  margin-bottom: 15px;
 }
 
-.logo-container{
-    float: right;
+.logo-container {
+  float: right;
 }
 
 .logo {
-    width: 150px;
-    box-shadow: 4px 4px 14px rgba(60, 199, 204, 0.993);
-    border-radius: 28px;    
+  width: 150px;
+  box-shadow: 4px 4px 14px rgba(60, 199, 204, 0.993);
+  border-radius: 28px;
 }
 
-.profile
-{
-    background-color: rgb(237, 246, 245);
-    color: rgb(0, 29, 64);
-    padding: 15px;
-    margin-bottom: 10px;
+.profile {
+  background-color: rgb(237, 246, 245);
+  color: rgb(0, 29, 64);
+  padding: 15px;
+  margin-bottom: 10px;
 }
 
 .profile-table {
-    width: 100%;
+  width: 100%;
 }
 
 .profile-table td {
-    padding-bottom: 5px;
-}
-  
-.profile-table td:nth-child(odd){
-    font-weight: 900;    
+  padding-bottom: 5px;
 }
 
-.education
-{
-    background-color: #FFFF;
-    color: rgb(0, 29, 64);
-    padding: 15px;
-    margin-bottom: 10px;
+.profile-table td:nth-child(odd) {
+  font-weight: 900;
 }
 
-.work-history
-{
-    background-color: #e5ffe7;
-    color: rgb(0, 29, 64);
-    padding: 10px;
-    margin-bottom: 10px;
+.education {
+  background-color: #ffff;
+  color: rgb(0, 29, 64);
+  padding: 15px;
+  margin-bottom: 10px;
 }
 
-.work-history-table
-{
-    width: 100%;
+.work-history {
+  background-color: #e5ffe7;
+  color: rgb(0, 29, 64);
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-.work-history-table td
-{
-    vertical-align: top;
+.work-history-table {
+  width: 100%;
 }
 
-.work-history-table td a 
-{
-    font-weight: 900;    
+.work-history-table td {
+  vertical-align: top;
 }
 
-.experience
-{
-    background-color: #fff9dc;
-    color: rgb(0, 29, 64);
-    padding: 10px;
-    margin-bottom: 10px;
+.work-history-table td a {
+  font-weight: 900;
+}
+
+.experience {
+  background-color: #fff9dc;
+  color: rgb(0, 29, 64);
+  padding: 10px;
+  margin-bottom: 10px;
 }
